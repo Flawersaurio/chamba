@@ -1,0 +1,2 @@
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\chambita\obj\Debug\chambita.csproj.AssemblyReference.cache
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\chambita\obj\Debug\chambita.csproj.CoreCompileInputs.cache

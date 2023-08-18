@@ -5,12 +5,12 @@ namespace chambita
 {
     public class mochila
     {
-        int NumDeBolsas;
-        string Tamanio;
-        float Precio;
-        string Disenio;
-        string Material;
-        int NumDeLlaveros;
-        color color;
+        public int NumDeBolsas;
+        public string Tamanio;
+        public float Precio;
+        public string Disenio;
+        public string Material;
+        public int NumDeLlaveros;
+        public color color;
     }
 }

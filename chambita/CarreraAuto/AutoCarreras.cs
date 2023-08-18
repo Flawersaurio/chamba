@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace chambita
+namespace CarreraAuto
 {
-    public class color
+    class AutoCarreras
     {
-        public int Rojo;
-        public int Verde;
-        public int Azul;
+        public string modelo;
+        public float peso;
+        public int velocidad;
+
+
     }
 }

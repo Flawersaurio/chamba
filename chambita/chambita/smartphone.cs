@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace chambita
 {
-    public class color
+    class smartphone
     {
-        public int Rojo;
-        public int Verde;
-        public int Azul;
     }
 }

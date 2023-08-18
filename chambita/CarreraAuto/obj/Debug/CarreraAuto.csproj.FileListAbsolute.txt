@@ -1,0 +1,6 @@
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\CarreraAuto\obj\Debug\CarreraAuto.csproj.CoreCompileInputs.cache
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\CarreraAuto\bin\Debug\CarreraAuto.exe.config
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\CarreraAuto\bin\Debug\CarreraAuto.exe
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\CarreraAuto\bin\Debug\CarreraAuto.pdb
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\CarreraAuto\obj\Debug\CarreraAuto.exe
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\CarreraAuto\obj\Debug\CarreraAuto.pdb
