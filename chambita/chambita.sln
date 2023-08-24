@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chambita", "chambita\chambi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarreraAuto", "CarreraAuto\CarreraAuto.csproj", "{FB1021B0-1EEC-4241-9984-48E2E2857B1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musica", "Musica\Musica.csproj", "{90552852-FB0E-4198-9014-B4761BF6A425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FB1021B0-1EEC-4241-9984-48E2E2857B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB1021B0-1EEC-4241-9984-48E2E2857B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB1021B0-1EEC-4241-9984-48E2E2857B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90552852-FB0E-4198-9014-B4761BF6A425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90552852-FB0E-4198-9014-B4761BF6A425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90552852-FB0E-4198-9014-B4761BF6A425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90552852-FB0E-4198-9014-B4761BF6A425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
