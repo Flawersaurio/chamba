@@ -11,3 +11,4 @@ C:\Users\aaron\OneDrive\Documentos\GitHub\chamba\chambita\CarreraAuto\obj\Debug\
 C:\Users\aaron\OneDrive\Documentos\GitHub\chamba\chambita\CarreraAuto\obj\Debug\CarreraAuto.csproj.CoreCompileInputs.cache
 C:\Users\aaron\OneDrive\Documentos\GitHub\chamba\chambita\CarreraAuto\obj\Debug\CarreraAuto.exe
 C:\Users\aaron\OneDrive\Documentos\GitHub\chamba\chambita\CarreraAuto\obj\Debug\CarreraAuto.pdb
+C:\Users\david.floressa\Documents\GitHub\chamba\chambita\CarreraAuto\obj\Debug\CarreraAuto.csproj.AssemblyReference.cache

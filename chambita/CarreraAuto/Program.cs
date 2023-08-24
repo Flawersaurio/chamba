@@ -16,7 +16,7 @@ namespace CarreraAuto
             Ferrari.velocidad = 230;
 
             AutoCarreras McLaren = new AutoCarreras();
-            McLaren.modelo = "McLaren A45S";
+            McLaren.modelo = "McLaren 720S";
             McLaren.peso = 0.98f;
             McLaren.velocidad = 280;
 
@@ -33,7 +33,21 @@ namespace CarreraAuto
             hnsRodriguez.Logngitud = 5.6f; //en km
 
             //mando a correr a los krriyos
-            hnsRodriguez.Competir(Ferrari, Porsche);
+            hnsRodriguez.Competir(Ferrari, McLaren);
+
+            Ferrari.PonerGas(20);
+            McLaren.PonerGas(9);
+
+            Ferrari.Arrancar();
+            McLaren.Arrancar();
+
+            Ferrari.Acelerar(50);
+            McLaren.Acelerar(40);
+
+            Ferrari.Frenar(0);
+            McLaren.Frenar(0);
+
+
 
             //esta instrucion espera a que des enter para continuar
             Console.ReadLine();
