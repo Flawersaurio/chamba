@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarreraAuto", "CarreraAuto\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musica", "Musica\Musica.csproj", "{90552852-FB0E-4198-9014-B4761BF6A425}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArregloSemana", "ArregloSemana\ArregloSemana.csproj", "{A3BB7F72-2B7D-44C2-B288-5D22C67A41E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneradorNombres", "GeneradorNombres\GeneradorNombres.csproj", "{3A6616C8-BD47-4036-A3FB-DB097790DBD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{90552852-FB0E-4198-9014-B4761BF6A425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90552852-FB0E-4198-9014-B4761BF6A425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90552852-FB0E-4198-9014-B4761BF6A425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BB7F72-2B7D-44C2-B288-5D22C67A41E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BB7F72-2B7D-44C2-B288-5D22C67A41E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BB7F72-2B7D-44C2-B288-5D22C67A41E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BB7F72-2B7D-44C2-B288-5D22C67A41E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6616C8-BD47-4036-A3FB-DB097790DBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6616C8-BD47-4036-A3FB-DB097790DBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6616C8-BD47-4036-A3FB-DB097790DBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6616C8-BD47-4036-A3FB-DB097790DBD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
