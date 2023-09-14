@@ -5,6 +5,7 @@ using UnityEngine;
 public class controladorjugador : MonoBehaviour
 {
     public float velocidadCaminar = 3;
+    public float fuerzaSalto = 0;
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
 
@@ -44,8 +45,23 @@ public class controladorjugador : MonoBehaviour
             miCuerpo.velocity = new Vector3(0, velActualVert, 0);
             miAnimador.SetBool("Caminando", false);
 
+        }//salto
+        if (Input.GetButtonDown("Jump"))
+        {
+            miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+
+
         }
 
-       
+        miAnimador.SetFloat("VEL_VERT", velActualVert);
+
+
     }
+
+   
+    
+
+
+
+
 }
