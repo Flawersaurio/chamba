@@ -6,6 +6,8 @@ public class controladorjugador : MonoBehaviour
 {
     public float velocidadCaminar = 3;
     public float fuerzaSalto = 0;
+    public bool enPiso = false; //Grounded
+    public int dobleSalto;
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
 
@@ -20,8 +22,19 @@ public class controladorjugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        comprobarPiso();
+
 
         float velActualVert = miCuerpo.velocity.y;
+
+        if (dobleSalto <= 0)
+        { 
+            if (enPiso == true)
+            {
+                dobleSalto = 2;
+            }
+        
+        }
 
         //Leo si el jugador esta presionando un eje horizontal en las flechas
         float movHoriz = Input.GetAxis("Horizontal");
@@ -53,13 +66,31 @@ public class controladorjugador : MonoBehaviour
 
         }
 
-        miAnimador.SetFloat("VEL_VERT", velActualVert);
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (enPiso == true)
+            {
+                miCuerpo.AddForce(new Vector3(0))
 
+            }
+
+        }
+
+
+
+
+
+        miAnimador.SetFloat("VEL_VERT", velActualVert);
 
     }
 
    
-    
+    void comprobarPiso()
+    {
+
+        enPiso = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
+
+    }
 
 
 
