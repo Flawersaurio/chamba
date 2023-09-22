@@ -10,6 +10,7 @@ public class controladorjugador : MonoBehaviour
     public int dobleSalto;
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
+    public int saltosDisp = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -61,9 +62,9 @@ public class controladorjugador : MonoBehaviour
         }//salto
         if (Input.GetButtonDown("Jump"))
         {
-            miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
+            miCuerpo.AddForce(new Vector3(0, *fuerzaSalto, 0), ForceMode2D.Impulse);
 
-
+            miAnimadorSetBool("Jump", true)
         }
 
         if (Input.GetButtonDown("Jump"))
@@ -74,8 +75,23 @@ public class controladorjugador : MonoBehaviour
 
             }
 
-        }
+            if (enPiso)
+            {
+                 saltosDisp = 1;   
+            }
 
+            if (saltosDisp > 0)
+            {
+                     if (Input.GetButtonDown ("Jump"))
+                     {
+                         miCuerpo.AddForce(transform.up * fuerzaSalto, ForceMode2D.Impulse);
+
+                          saltosDisp--;
+                     }
+
+            }
+
+        }
 
 
 
