@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PracticaConstructores
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Dragon dragon1 = new Dragon();
+            dragon1.presentarse();
+            float velocidad = dragon1.calcVelocidadVuelo();
+            Console.WriteLine("Velocidad: " + velocidad);
+
+            Dragon dragon2 = new Dragon("electrico", "amarillo");
+            dragon2.presentarse();
+            Console.WriteLine("Velocidad: " + dragon2.calcVelocidadVuelo());
+
+            Dragon dragon3 = new Dragon("roca", "blanco");
+            dragon3.presentarse();
+
+
+
+            Triangulo triangulo1 = new Triangulo(18f, 20f);
+            float area = triangulo1.calcArea();
+            Console.WriteLine("El area del triangulo es " + area);
+
+            Triangulo triangulo2 = new Triangulo(14f, 16f);
+            Console.WriteLine("El area del triangulo es " + triangulo2.calcArea());
+
+
+            Rectangulo rectangulo1 = new Rectangulo(2f, 10f);
+            float areaRec = rectangulo1.calcPer();
+            Console.WriteLine("El area del rectangulo es " + areaRec);
+
+            Rectangulo rectangulo2 = new Rectangulo(19.5f, 9f);
+            Console.WriteLine("El area del rectangulo es " + rectangulo2.calcPer());
+
+
+            Zapato zapato1 = new Zapato("blanco", 25.5f);
+            zapato1.describir();
+
+            Zapato zapato2 = new Zapato("negro", 23f);
+            zapato2.describir();
+
+
+            Contacto contacto1 = new Contacto("Sofia", "2274569028");
+            contacto1.llamar();
+
+            Contacto contacto2 = new Contacto("Paco", "2263883028");
+            contacto2.llamar();
+
+
+            Foco foco1 = new Foco(18f, true);
+            foco1.consumo();
+
+            Foco foco2 = new Foco(35f, false);
+            foco2.consumo();
+
+
+
+            Console.ReadLine();
+
+        }
+    }
+}
