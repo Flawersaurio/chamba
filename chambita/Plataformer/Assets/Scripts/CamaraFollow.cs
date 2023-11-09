@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class CamaraFollow : MonoBehaviour
 {
-    // Start is called before the first frame update
+   
+
+
+
     void Start()
     {
         
